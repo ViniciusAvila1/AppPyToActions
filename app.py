@@ -9,11 +9,11 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask app to test</title>
+    <title>Flask App</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(120deg, #89f7fe, #66a6ff);
+            background: linear-gradient(120deg, #a8e6cf, #dcedc1);
             margin: 0;
             padding: 0;
             display: flex;
@@ -24,13 +24,13 @@ HTML_TEMPLATE = """
         }
         .container {
             text-align: center;
-            background: #ffffffcc;
+            background: rgba(255, 255, 255, 0.8);
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #4a90e2;
+            color: #4caf50;
             margin-bottom: 20px;
         }
         p {
@@ -40,8 +40,8 @@ HTML_TEMPLATE = """
             display: inline-block;
             padding: 10px 20px;
             font-size: 1em;
-            color: white;
-            background: #4a90e2;
+            color: #fff;
+            background: #4caf50;
             border: none;
             border-radius: 5px;
             text-decoration: none;
@@ -49,15 +49,15 @@ HTML_TEMPLATE = """
             transition: background 0.3s ease;
         }
         .btn:hover {
-            background: #357abd;
+            background: #388e3c;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Aplicação flask para deploy</h1>
-        <p>Vinicius Felipi Pereira - Teste de GitHub actions</p>
-        <a class="btn" href="#">Style</a>
+        <h1>Hello, World!</h1>
+        <p>Vinicius Vicente Ávila Lima - Action</p>
+        <a class="btn" href="#">Explore</a>
     </div>
 </body>
 </html>
