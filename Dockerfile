@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expor a porta da aplicação
-EXPOSE 8106
+EXPOSE 8108
 
 # Comando para iniciar a aplicação
 CMD ["python", "app.py"]
