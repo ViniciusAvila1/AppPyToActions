@@ -68,4 +68,4 @@ def home():
     return render_template_string(HTML_TEMPLATE)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8106)
+    app.run(host='0.0.0.0', port=8108)
