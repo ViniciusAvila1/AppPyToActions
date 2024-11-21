@@ -55,7 +55,7 @@ HTML_TEMPLATE = """
 </head>
 <body>
     <div class="container">
-        <h1>Hello, World!</h1>
+        <h1>Outro título</h1>
         <p>Vinicius Vicente Ávila Lima - Action</p>
         <a class="btn" href="#">Botão para lugar nenhum</a>
     </div>
